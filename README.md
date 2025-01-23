@@ -1,18 +1,27 @@
-# <p align=center> 360Brew-V1 </p>
-<p align=center><a href=''>Paper Link</a></p>
+<div id="user-content-toc">
+  <ul align="center" style="list-style: none;">
+    <summary>
+      <h1>360Brew-V1</h1>
+    </summary>
+  </ul>
+  <ul align="center" style="list-style: none;">
+    <summary>
+      <a href='https://github.com/LLMPersonalization/360Brew-V1/blob/main/360brew_v1.pdf'>Paper Link</a> :eyes:
+    </summary>
+  </ul>  
+</div>
 
 ## 1. What is 360Brew
 360Brew is model that closes the gap between general Large Language Models (LLM) and Personalization tasks including ranking and retreival tasks. The name 360Brew reflects the model’s aim to provide a 360-degree (all-encompassing) solution for personalization, while “Brew” conveys the idea of mixing or combining diverse tasks and data sources into a single, unified foundation.
 
-## 2. Example of Model Input Prompt
+## 2. Example of the Model Input Prompt
 The following is a toy example of 360Brew input for solving a job recommendation task. Note that the member and job data used in this example are entirely fictional.
 <table style="background-color: lightgray; width: 100%; border-collapse: collapse;">
 <tr>
   <td><b>Instruction:</b><br>
   You are provided a member's profile and a set of jobs, their description, and interactions that the member had with the jobs. For each past job, the member has taken one of the following actions: applied, viewed, dismissed, or did not interact.<br>
   Your task is to analyze the job interaction data along with the member's profile to predict whether the member will apply, view, or dismiss a new job referred to as the "Question" job.
-  <b>Note:</b><br>
-  Focus on skills, location, and years of experience more than other criteria. In your calculation, assign a 30% weight to the relevance between the member's profile and the job description, and a 70% weight to the member's historical activity.
+  <b>Note:</b> Focus on skills, location, and years of experience more than other criteria.
   </td>
 </tr>
 <tr>

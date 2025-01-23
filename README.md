@@ -2,9 +2,10 @@
 <p align=center><a href=''>Paper Link</a></p>
 
 ## 1. What is 360Brew
-360Brew is a research project that aims to close the gap between general Large Language Models (LLM) and Personalization tasks including ranking and retreival tasks. The name 360Brew reflects the model’s aim to provide a 360-degree (all-encompassing) solution for personalization and recommendation tasks, while “Brew” conveys the idea of mixing or combining diverse tasks and data sources into a single, unified foundation.
+360Brew is model that closes the gap between general Large Language Models (LLM) and Personalization tasks including ranking and retreival tasks. The name 360Brew reflects the model’s aim to provide a 360-degree (all-encompassing) solution for personalization, while “Brew” conveys the idea of mixing or combining diverse tasks and data sources into a single, unified foundation.
 
 ## 2. Example of Model Input Prompt
+The following is a toy example of 360Brew input for solving a job recommendation task. Note that the member and job data used in this example are entirely fictional.
 <table style="background-color: lightgray; width: 100%; border-collapse: collapse;">
 <tr>
   <td><b>Instruction:</b><br>
@@ -47,9 +48,14 @@ As the data size (in tokens) increases, the average performance of the 360Brew m
 One of main benefit of 360Brew model is that it does not require manual feature engineering. In this research, we show that 360Brew model’s performance gets better as we increase the history by increasing the max context length.
 ![360brew_v1_context_len_scaling](https://github.com/user-attachments/assets/2fd99bb7-d6dc-4a60-a60d-557c655e0d95)
 
+## 5. Scaling Law - Model Parameters
+Building on recent works that demonstrate how increasing the size of large language models (LLMs) enhances their ability to understand context, we show that the same principle applies to personalization tasks. Specifically, the 360Brew model improves as we increase its size by leveraging larger and more powerful pre-trained architectures.
 
-## 5. Citation
+<img width="1288" alt="performance-size" src="https://github.com/user-attachments/assets/6c3506ef-d874-4a5a-be91-09b110e7b232" />
+
+
+## 6. Citation
 Coming!!! Arxiv Submission is on-hold
 
-## 6. Contact
+## 7. Contact
 If you have any questions, please raise an issue or contact us at mhfirooz@gmail.com, maziar.sanjabi@gmail.com

@@ -64,7 +64,15 @@ Building on recent works that demonstrate how increasing the size of large langu
 
 
 ## 6. Citation
-Coming!!! Arxiv Submission is on-hold
-
+```
+@article{360brew_v1,
+  author = {Hamed Firooz, Maziar Sanjabi,  Adrian Englhardt, Aman Gupta, Ben Levine, Dre Olgiati, Gungor Polatkan, Iuliia Melnychuk, Karthik Ramgopal, Kirill Talanine, Kutta Srinivasan, Luke Simon, Natesh Sivasubramoniapillai, Necip Fazil Ayan, Qingquan Song, Samira Sriram, Souvik Ghosh, Tao Song, Vignesh Kothapalli, Xiaoling Zhai, Ya Xu, Yu Wang, and Yun Dai},
+  title = {360Brew V1},
+  journal = {arXiv preprint},  % Update this if there's a specific journal
+  year = {2025},
+  url = {https://github.com/LLMPersonalization/360Brew-V1/blob/main/360brew_v1.pdf},
+  note = {Accessed: 2025-01-24}
+}
+```
 ## 7. Contact
 If you have any questions, please raise an issue or contact us at mhfirooz@gmail.com, maziar.sanjabi@gmail.com

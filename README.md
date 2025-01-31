@@ -6,7 +6,7 @@
   </ul>
   <ul align="center" style="list-style: none;">
     <summary>
-      <a href='https://github.com/LLMPersonalization/360Brew-V1/blob/main/360brew_v1.pdf'>Paper Link</a> :eyes:
+      <a href='https://arxiv.org/abs/2501.16450'>Paper Link</a> :eyes:
     </summary>
   </ul>  
 </div>

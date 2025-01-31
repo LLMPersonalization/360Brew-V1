@@ -70,7 +70,7 @@ Building on recent works that demonstrate how increasing the size of large langu
   title = {360Brew V1},
   journal = {arXiv preprint},
   year = {2025},
-  url = {https://github.com/LLMPersonalization/360Brew-V1/blob/main/360brew_v1.pdf},
+  url = {https://arxiv.org/abs/2501.16450},
   note = {Accessed: 2025-01-24}
 }
 ```
